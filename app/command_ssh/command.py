@@ -123,7 +123,7 @@ async def stream_log(host, port, username, password, log_base_path, log_file, lo
                 pass
 
 
-@app.command()
+@app.callback(invoke_without_command=True)
 def tail(
     ctx: typer.Context,
     log_file: Annotated[str, typer.Argument(..., help="日志文件名(不含 .log 后缀)")],

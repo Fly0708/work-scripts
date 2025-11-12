@@ -1,5 +1,5 @@
 
-from ..common.config import ConfigSchema
+from app.config import ConfigSchema
 
 class ContextSchema:
     config: ConfigSchema | None

@@ -12,6 +12,9 @@ dependencies = [
     "asyncssh>=2.21.1",
     "ruff>=0.14.4",
     "pydantic>=2.12.4",
+    "sqlalchemy>=2.0.0",
+    "duckdb>=1.0.0",
+    "duckdb-engine>=0.9.0",
 ]
 
 [project.scripts]
